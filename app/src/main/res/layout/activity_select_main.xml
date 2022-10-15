@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selectscine"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="13"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="難易度選択 : 　　　　　"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_design0"
+
+        android:text=" やさしい "
+        android:textSize="30sp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_design1"
+        android:text="　ふつう　"
+        android:textSize="30sp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_design2"
+        android:text="むずかしい"
+        android:textSize="30sp"
+        android:layout_weight="1"/>
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"/>
+
+
+</LinearLayout>
+

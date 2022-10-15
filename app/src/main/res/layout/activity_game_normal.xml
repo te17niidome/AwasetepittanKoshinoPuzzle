@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Game">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/standardback"
+        android:orientation="vertical">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/imageLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+
+            <LinearLayout
+                android:layout_width="480px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView0"
+                    android:layout_width="160px"
+                    android:layout_height="160px"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/kaeru240" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="160px"
+                    android:layout_height="160px"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/kaeru240" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="160px"
+                    android:layout_height="160px"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/kaeru240" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="480px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="160px"
+                    android:layout_height="160px"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/kaeru240" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="160px"
+                    android:layout_height="160px"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/kaeru240" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="160px"
+                    android:layout_height="160px"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/kaeru240" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="480px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="160px"
+                    android:layout_height="160px"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/kaeru240" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="160px"
+                    android:layout_height="160px"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/kaeru240" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="160px"
+                    android:layout_height="160px"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/kaeru240" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="TextView"
+            android:textColor="#ffff77"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/toResultButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/success"
+        android:visibility="invisible" />
+</FrameLayout>
